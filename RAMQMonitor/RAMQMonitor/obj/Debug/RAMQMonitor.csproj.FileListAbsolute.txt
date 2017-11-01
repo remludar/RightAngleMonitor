@@ -5,3 +5,9 @@ C:\Users\Jason.Ewton\Dropbox\Work\Projects\Motiva\_repo\RAMQMonitor\RAMQMonitor\
 C:\Users\Jason.Ewton\Dropbox\Work\Projects\Motiva\_repo\RAMQMonitor\RAMQMonitor\bin\Debug\RAMQMonitor.pdb
 C:\Users\Jason.Ewton\Dropbox\Work\Projects\Motiva\_repo\RAMQMonitor\RAMQMonitor\obj\Debug\RAMQMonitor.exe
 C:\Users\Jason.Ewton\Dropbox\Work\Projects\Motiva\_repo\RAMQMonitor\RAMQMonitor\obj\Debug\RAMQMonitor.pdb
+C:\Users\jason.ewton\Dropbox\Work\Projects\Motiva\_repos\RightAngleMonitor\RAMQMonitor\RAMQMonitor\bin\Debug\RAMQMonitor.exe.config
+C:\Users\jason.ewton\Dropbox\Work\Projects\Motiva\_repos\RightAngleMonitor\RAMQMonitor\RAMQMonitor\bin\Debug\RAMQMonitor.exe
+C:\Users\jason.ewton\Dropbox\Work\Projects\Motiva\_repos\RightAngleMonitor\RAMQMonitor\RAMQMonitor\bin\Debug\RAMQMonitor.pdb
+C:\Users\jason.ewton\Dropbox\Work\Projects\Motiva\_repos\RightAngleMonitor\RAMQMonitor\RAMQMonitor\obj\Debug\RAMQMonitor.csproj.CoreCompileInputs.cache
+C:\Users\jason.ewton\Dropbox\Work\Projects\Motiva\_repos\RightAngleMonitor\RAMQMonitor\RAMQMonitor\obj\Debug\RAMQMonitor.exe
+C:\Users\jason.ewton\Dropbox\Work\Projects\Motiva\_repos\RightAngleMonitor\RAMQMonitor\RAMQMonitor\obj\Debug\RAMQMonitor.pdb

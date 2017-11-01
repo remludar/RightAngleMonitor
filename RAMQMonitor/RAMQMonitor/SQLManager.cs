@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -9,14 +10,14 @@ namespace RightAngleMonitor
 {
     public static class SQLManager
     {
-        private static string _connectionString;
+        private static ConnectionStringSettings _connectionString;
         private static SqlConnection _connection;
         public static ResultSet resultSet;
 
         public static void GetCurrentRAMQResults()
         {
-            _connectionString = "Data Source=10.58.20.9;Initial Catalog=MotivaSecurity;User id=sysuser;Password=F6h183Vs;";
-            _connection = new SqlConnection(_connectionString);
+            _connectionString = ConfigurationManager.ConnectionStrings["DBConnection"];
+            _connection = new SqlConnection(_connectionString.ConnectionString);
             resultSet = new ResultSet();
 
             _QueryRAMQ();
@@ -25,7 +26,6 @@ namespace RightAngleMonitor
         {
             _QueryServiceMonitor();
         }
-
 
         private static void _QueryRAMQ()
         {
@@ -91,7 +91,6 @@ namespace RightAngleMonitor
                 dataAdapter.Dispose();
             }
         }
-
         private static void _QueryServiceMonitor()
         {
             _connection.Open();

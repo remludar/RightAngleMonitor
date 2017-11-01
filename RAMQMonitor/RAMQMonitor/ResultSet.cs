@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace RightAngleMonitor
 {
+    [System.ComponentModel.DesignerCategory("Code")]
     public class ResultSet : DataSet
     {
         System.Type typeString = typeof(string);

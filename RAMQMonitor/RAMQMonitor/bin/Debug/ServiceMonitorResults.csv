@@ -91,7 +91,7 @@ Salesforce Invoice Stage & Export - 250,10/5/2017 4:15:00 PM,10/5/2017 5:15:00 P
 Salesforce Invoice Stage & Export - 40,10/5/2017 3:45:01 AM,10/6/2017 12:15:00 AM,Waiting,14,03:45:01.1700000,00:15:00,RecurrencePattern=Minutes||NumberOfMinutes=5||MinTime=12:15:00 am||MaxTime=03:45:00 am||StartDate=02/01/2001||StartTime=12:00:00 am,W,,10/5/2017 3:45:15 AM
 SAP AP Export,10/5/2017 3:06:51 PM,1/1/2017 12:00:00 AM,Waiting,5,15:06:51.2700000,00:00:00,,W,,10/5/2017 3:06:56 PM
 SAP AR Export,10/5/2017 3:07:04 PM,1/1/2017 12:00:00 AM,Waiting,2,15:07:04.2830000,00:00:00,,W,,10/5/2017 3:07:06 PM
-SAP GL DeCAF Stage,10/25/2017 8:00:48 PM,10/25/2048 8:00:00 AM,Waiting,1,20:00:48.7000000,08:00:00,RecurrencePattern=Days||NumberOfDays=1||StartDate=10/25/2048||StartTime=08:00:00 am,W,,10/25/2017 8:00:49 PM
+SAP GL Stage & Export,10/30/2017 10:07:15 AM,10/25/2048 8:00:00 AM,Waiting,24,10:07:15.9730000,08:00:00,RecurrencePattern=Days||NumberOfDays=1||StartDate=10/25/2048||StartTime=08:00:00 am,W,,10/30/2017 10:07:39 AM
 Snapshot Intraday,10/5/2017 1:53:32 PM,10/5/2017 2:00:00 PM,Waiting,387,13:53:32.7870000,14:00:00,RecurrencePattern=Minutes||NumberOfMinutes=60||MinTime=07:00:00 am||MaxTime=03:00:00 pm||StartDate=02/01/2001||StartTime=12:00:00 am,W,,10/5/2017 1:59:59 PM
 Snapshot Month End,10/5/2017 6:47:05 PM,5/31/2016 8:00:00 AM,Waiting,12214,18:47:05.7800000,08:00:00,RecurrencePattern=Months||DayOfMonth=31||NumberOfMonthsToStep=1||StartDate=05/31/2016||StartTime=08:00:00 am,W,,10/5/2017 10:10:39 PM
 Snapshot Nightly,10/4/2017 4:22:21 PM,12/1/2017 4:20:00 PM,Waiting,2160,16:22:21.5630000,16:20:00,(None),W,,10/4/2017 4:58:21 PM

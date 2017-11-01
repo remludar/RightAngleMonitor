@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,9 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RAMQMonitor.cs" />
-    <Compile Include="ResultSet.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="ResultSet.cs" />
     <Compile Include="ServiceMonitorMonitor.cs" />
     <Compile Include="SQLManager.cs" />
   </ItemGroup>
