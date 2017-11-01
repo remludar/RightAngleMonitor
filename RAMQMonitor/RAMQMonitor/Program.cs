@@ -14,8 +14,8 @@ namespace RightAngleMonitor
             var sm = new ServiceMonitorMonitor();
 
             SQLManager.resultSet.CreateAlertTable();
-            //SQLManager.resultSet.EmailResults();
-            SQLManager.resultSet.PrintResults();
+            SQLManager.resultSet.EmailResults();
+            //SQLManager.resultSet.PrintResults();
         }
     }
 }

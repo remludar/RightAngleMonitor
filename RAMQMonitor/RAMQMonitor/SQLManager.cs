@@ -80,7 +80,7 @@ namespace RightAngleMonitor
 			                and pl2.prcsslgprcssgrpid = pl.prcsslgprcssgrpid 
 			                and pl2.prcsslgprcssSchdlrIIID = pl.prcsslgprcssSchdlrIIID
 	                )
-                    --and prcsslgbgn > DateADD(minute, -30, GetDate())
+                    and prcsslgbgn > DateADD(minute, -30, GetDate())
                 order by 1 desc";
             using (SqlCommand command = new SqlCommand(sqlString, _connection))
             {
@@ -121,7 +121,10 @@ namespace RightAngleMonitor
 	                status,
 	                message
                 from scheduledtask (nolock)
-                --where enabled = 1
+                where enabled = 1
+                and (lastrunstart > DateADD(minute, -30, GetDate())
+	                and status in ('R','P'))
+                or status = 'F'
                 order by 1
                 ";
             using (SqlCommand command = new SqlCommand(sqlString, _connection))
